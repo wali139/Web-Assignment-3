@@ -1,0 +1,391 @@
+
+.navbar{
+  background-color: #316DC3;
+  
+  }
+.dropdown-toggle:hover{
+ 
+  border-radius: 90px;
+  /* height: 35px ;
+  width: 80px; 
+  line-height: 1px; */
+  color: white;
+  background-color: #316DC3;
+  box-shadow: 1px 1px 0px 0px #316DC3;
+  border: solid #337FED 0px;
+  text-decoration: none;
+  text-shadow: -2px 2px 35px #000000 ;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+                                   /* TITLE */
+.whatsapp{
+  width: 17px;
+  height: 17px;
+}
+
+/* .menu :hover{
+  background-color: #16569b;
+  border-radius: 30px;
+  display: block;
+} */
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+
+.btnhome{
+  border-radius: 30px;
+}
+
+#title p {
+  color: #fff;
+  text-align: center;
+}
+.navpara{
+  font-size: 12px;
+}
+
+.logo{
+  width: 230px;
+  height: 65px;
+  /* position: relative;
+  left: -100px; */
+}
+
+.btn{
+  padding: 0 2px ;
+}
+
+
+
+                              /* INTRODUCTION */
+#introduction{
+  padding: 5% 0 5% 0;
+  background-color: #f0f0f0;
+  font-family: "Merriweather",serif;
+
+}
+h1{
+  text-align: center;
+  color: #316DC3;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.monthly{
+  color: rgb(0, 255, 0);
+}
+Span{
+  color: green;
+}
+.smalllogo
+{
+  width: 60px;
+  height: 60px;
+  margin-left: 47%;
+}
+
+.smalllogo ::before{
+  content: "___";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: green;
+  position: absolute;
+  left: 0;
+
+}
+
+                                /* TOTAL */
+#total{
+  background-color: #1273EB;
+  padding: 5% 0;
+}
+.feature-box{
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+
+                                /* DOING */
+
+#doing{
+  background-color: #f0f0f0;
+  padding: 80px 0;
+  text-align: center;
+  font-family: "Merriweather",serif;
+  font-weight: 600;
+  color:  #316DC3;
+}
+.doinglogo{
+  width: 60px;
+  height: 60px;
+}
+.img-size{
+  width: 60px;
+  height: 60px;
+}
+                               /* MISSION */
+
+#mission{
+ padding: 70px 0;
+ font-family: "Merriweather",serif;
+ font-weight: 600;
+color:  #316DC3;
+}
+#mission hr{
+  height: 10px;
+  border: solid green 2px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 6%;
+  position: absolute;
+
+}
+#mission .hr2{
+
+  border: solid green 2px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 14%;
+  position: absolute;
+}
+
+#mission span{
+   color:  #316DC3;
+}
+
+.scrollbar{
+  height: 300px;
+  width: 300px;
+  overflow: auto;
+  color: GREY;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.img-size1{
+  width: 30px;
+  height: 30px;
+}
+
+.cardcolor{
+  background-color: #f0f0f0;
+}
+
+
+                                 /* IMAGES */
+
+#gallery{
+  padding-bottom: 150px;
+  font-family: "Merriweather",serif;
+  font-weight: 600;
+}
+.image-gallery{
+  width: 215px;
+  height:150px;
+}
+
+
+
+
+                              /* footer */
+
+
+
+#footer{
+  background-color: #333;
+  color: #f0f0f0;
+  padding: 60px 0;
+}
+
+#footer hr{
+  height: 10px;
+  border: solid green 3px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 10%;
+  position: absolute;
+}
+#introduction hr{
+  height: 10px;
+  border: solid green 3px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
+  position: absolute;
+}
+#introduction #before-line{
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+#introduction #after-line{
+  position: relative;
+  top:-45px;
+  left: 100px;
+}
+#gallery hr{
+  height: 10px;
+  border: solid green 3px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
+  position: absolute;
+}
+#gallery #before-line{
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+#gallery #after-line{
+  position: relative;
+  top:-45px;
+  left: 100px;
+}
+#doing hr{
+  height: 10px;
+  border: solid green 3px ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
+  position: absolute;
+}
+#doing #before-line{
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+#doing #after-line{
+  position: relative;
+  top:-45px;
+  left: 100px;
+}
+#footer #line{
+    
+    /* position: relative;
+    left: 50px; 
+    height: 30px; */
+    border: solid rgb(114, 114, 114) 1px ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    position: absolute;
+    left: 53px;
+    top: 34px;
+    
+    
+  
+}
+#footer #footer-text{
+  color: rgb(174, 176, 179);
+  position: relative;
+  left: -50px;
+  width: 100%;
+
+
+
+}
+
+
+                             /* copyright */
+
+#copyright{
+  background-color: #316dc3;
+  padding: 10px 0;
+  height: 50px;
+  color: #fff;
+}
+.top-donate{
+  background-color: #316DC3;
+  width: 100%;
+  height: 50px;
+  padding-top: 5px;
+  margin: 0em;
+  /* padding: 5px 0 0px; */
+}
+.top-qoute{
+    
+  position: relative;
+  left: 0px;
+  top: -20px;
+  /* margin-top: 10px;
+  margin-left: 200px; */
+  color: white;
+}
+.top-icon{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  top: 10px;
+  
+  
+}
+.icon{
+  border-radius: 5px;
+  width: 1.5%;
+  
+  /* height: 50%; */
+
+} 
+button{
+  border: solid rgb(73, 73, 73) 0.1px;
+  height: 25px;
+  font-weight: none;
+  
+  text-align: center;
+  color: rgb(112, 112, 112);
+  position: relative;
+  left: 980px;
+  top: -57px;
+
+}
+.home-btn{
+    
+  position: relative;
+  top: 4px;
+  left: -5px;
+  border-radius: 80px;
+  height: 35px ;
+  width: 80px;
+  line-height: 1px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 0px;
+  background-color: #316DC3;
+  box-shadow: 1px 1px 0px 0px #316DC3;
+  border: solid #337FED 0px;
+  text-decoration: none;
+  text-shadow: -2px 2px 35px #000000 ;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+
